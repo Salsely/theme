@@ -1,18 +1,17 @@
 /**
  * @name Zelk
- * @version 1.2.2
- * @description a smooth theme inspired by zorin
- * @author schnensch
- * @authorId 652801938374656013
+ * @version 0.1
+ * @description A fork of Zelk theme
+ * @author !Hades#1111
+ * @authorId 836238843891417140
  * @source https://github.com/schnensch0/zelk
- * @invite tMEcBhsNqA
  */
-/*         ▀▀█ █▀▀ █   █ █
-           ▄▀  █▀▀ █   █▀▄
-           ▀▀▀ ▀▀▀ ▀▀▀ ▀ ▀           */
+
  /*--------------IMPORTS------------- */
 @import url(https://schnensch0.github.io/zelk/main.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+@import url(https://rawcdn.githack.com/Salsely/betterdiscord-zelk-purple/ad1adee7325f656e4f334f77a210c3bc66e79da0/purple.css);
+
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
@@ -39,23 +38,30 @@
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 }
-/*-----------CUSTOM COLORS-----------*/
-/*-------------DARK MODE-------------*/
+
 /*---------------BASIC---------------*/
+.guildSeparator-a4uisj{
+  background-color: rgb(116, 99, 131);
+}
+.content-2a4AW9 .containerDefault-YUSmu3:hover svg{
+  color: #564e58;
+  transition:0.1s ease-out;
+}
+.message-2CShn3 .mention {
+  /* text color */
+  color: rgb(241, 210, 255) !important;
+  /* background color */
+  background-color: rgba(184, 134, 218, 0.158) !important;
+}
+.mentioned-Tre-dv:before{
+  background: rgb(179, 146, 206);
+}
 .theme-dark {
-  --accent-color: #bde6fb;
+  --accent-color: #ffffff;
   --background-1: #171d20;
   --background-2: #1e2529;
   --background-accent: #1e2529;
   --border-color: #273034;
-}
-/*-------------LIGHT MODE------------*/
-.theme-light {
-  --accent-color: #22c5fd;
-  --background-1: #ffffff;
-  --background-2: #f5f7fa;
-  --background-accent: var(--background-2);
-  --border-color: transparent;
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
@@ -70,16 +76,15 @@
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
   /* modifiers */
-  --background-modifier-hover: #262e33;
-  --background-modifier-active: #495a63;
+  --background-modifier-hover: #333333;
+  --background-modifier-active: #5d5d5d;
   --background-modifier-selected: var(--accent-color);
-  --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
-  --text-muted: #6d8692;
-  --text-link: #edf8fe;
+  --text-muted: #888888;
+  --text-link: #ffffff;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
@@ -88,20 +93,20 @@
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   /* more */
-  --settings-icon-color: #8eacbc;
+  --settings-icon-color: #8b8b8b;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
-  --tab-selected: #354249;
-  --switch: #3d4c53;
+  --tab-selected: #3c3c3c;
+  --switch: #4f4f4f;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
   /* buttons */
-  --button-background: #2a3439;
-  --button-background-hover: #354249;
-  --button-background-active: #4d5f68;
+  --button-background: #373737;
+  --button-background-hover: #474747;
+  --button-background-active: #646464;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #d2f3ff;
-  --button-accent-active: #8dd4f8;
+  --button-accent-hover: #ffffff;
+  --button-accent-active: #f8f8f8;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
@@ -115,19 +120,18 @@
   --background-tertiary: var(--background-2);
   --background-accent-gradient: var(--background-2);
   --background-floating: var(--background-1);
-  --background-mentioned: #22c5fd10;
+  --background-mentioned: #ffffff10;
   --background-mentioned-hover: #22c5fd15;
   /* modifiers */
   --background-modifier-hover: transparent;
-  --background-modifier-active: #b7c2cc;
+  --background-modifier-active: #c5c5c5;
   --background-modifier-selected: var(--accent-color);
-  --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
-  --text-normal: #123354;
+  --text-normal: #444444;
   --text-positive: var(--text-normal);
-  --text-muted: #8495a7;
-  --text-link: #15a6f0;
+  --text-muted: #aaaaaa;
+  --text-link: #9815f0;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
@@ -136,20 +140,20 @@
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   /* more */
-  --settings-icon-color: #566e86;
+  --settings-icon-color: #767079;
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --tab-selected: var(--background-1);
-  --switch: #c8d0d9;
+  --switch: #dadada;
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
   /* buttons */
   --button-background: var(--background-1);
-  --button-background-hover: #d3dae1;
-  --button-background-active: #b1bcc8;
+  --button-background-hover: #dadada;
+  --button-background-active: #cacaca;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #22c5fd;
-  --button-accent-active: #0d87c5;
+  --button-accent-hover: #a522fd;
+  --button-accent-active: #6c0dc5;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
