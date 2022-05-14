@@ -3,10 +3,10 @@
 @import url('https://rsms.me/inter/inter.css');
 /* temp */
 .theme-dark {
-  --text-positive: #6ee1b6;
+  --text-positive: #c66ee1;
 }
 .theme-light {
-  --text-positive: #2ac88d;
+  --text-positive: #c66ee1;
 }
 /* background */
 :root {
@@ -243,7 +243,7 @@
 }
 .lookOutlined-3yKVGo.colorRed-rQXKgM {
   border-color: var(--button-destructive);
-  background-color: #FB7C7C38;
+  background-color: #e27cfb38;
 }
 .theme-dark .lookOutlined-3yKVGo.colorRed-rQXKgM {
   color: #fff;
@@ -661,7 +661,7 @@ svg.slider-32CRPX svg, .bd-switch-slider>svg {
 }
 /* mentions */
 .wrapper-1ZcZW- {
-  background: #BDE6FB30 !important;
+  background: #e2bdfb30 !important;
   color: var(--accent-color);
 }
 /* profiles */
@@ -1913,3 +1913,21 @@ body:not(.powercord) .panels-3wFtMD::after {
 .bf-toolbar .format:active {
   background: var(--background-modifier-active) !important;
 }
+
+/*Additional*/
+.guildSeparator-a4uisj{
+    background-color: rgb(116, 99, 131);
+  }
+  .content-2a4AW9 .containerDefault-YUSmu3:hover svg{
+    color: #564e58;
+    transition:0.1s ease-out;
+  }
+  .message-2CShn3 .mention {
+    /* text color */
+    color: rgb(241, 210, 255) !important;
+    /* background color */
+    background-color: rgba(184, 134, 218, 0.158) !important;
+  }
+  .mentioned-Tre-dv:before{
+    background: rgb(179, 146, 206);
+  }
