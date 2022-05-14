@@ -1931,3 +1931,6 @@ body:not(.powercord) .panels-3wFtMD::after {
   .mentioned-Tre-dv:before{
     background: rgb(179, 146, 206);
   }
+  #channel-attach-upload-file.focused-3qFvc8 {
+    color: black;
+  }
