@@ -1919,7 +1919,7 @@ body:not(.powercord) .panels-3wFtMD::after {
     background-color: rgb(116, 99, 131);
   }
   .content-2a4AW9 .containerDefault-YUSmu3:hover svg{
-    color: #564e58;
+    color: rgb(134, 91, 134);
     transition:0.1s ease-out;
   }
   .message-2CShn3 .mention {
@@ -1933,7 +1933,14 @@ body:not(.powercord) .panels-3wFtMD::after {
   }
   #channel-attach-upload-file.focused-3qFvc8 {
     color: black;
+    background-color: rgb(224, 196, 244)
+    transition: 0.1s;
   }
   .colorDefault-CDqZdO.focused-3qFvc8 {
     color: black;
+    background-color: rgb(224, 196, 244);
+    transition: 0.1s;
+  }
+  .icon-2W8DHg {
+  color: rgb(224, 196, 244)
   }
