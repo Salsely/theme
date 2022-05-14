@@ -33,9 +33,9 @@
   --border-radius-1: 10px;
   --border-radius-2: 8px;
 
-	--accentcolor:		224, 196, 244;		/*	blurple		-	default:	88,101,242		*/
-	--accentcolor2:		155, 60, 223;	/*	boostpink	-	default:	255,115,250		*/
-	--linkcolor:			255, 0, 179;		/*	link		-	default:	0,176,244		*/
+	--accentcolor:		224, 196, 244
+	--accentcolor2:		155, 60, 223;
+	--linkcolor:		255, 0, 179;
 }
 
 /*---------------BASIC---------------*/
