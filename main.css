@@ -1916,31 +1916,34 @@ body:not(.powercord) .panels-3wFtMD::after {
 
 /*Additional*/
 .guildSeparator-a4uisj{
-    background-color: rgb(116, 99, 131);
-  }
-  .content-2a4AW9 .containerDefault-YUSmu3:hover svg{
-    color: rgb(134, 91, 134);
-    transition:0.1s ease-out;
-  }
-  .message-2CShn3 .mention {
-    /* text color */
-    color: rgb(241, 210, 255) !important;
-    /* background color */
-    background-color: rgba(184, 134, 218, 0.158) !important;
-  }
-  .mentioned-Tre-dv:before{
-    background: rgb(179, 146, 206);
-  }
-  #channel-attach-upload-file.focused-3qFvc8 {
-    color: black;
-    background-color: rgb(224, 196, 244)
-    transition: 0.1s;
-  }
-  .colorDefault-CDqZdO.focused-3qFvc8 {
-    color: black;
-    background-color: rgb(224, 196, 244);
-    transition: 0.1s;
-  }
-  .icon-2W8DHg {
-  color: rgb(224, 196, 244)
-  }
+  background-color: rgb(116, 99, 131);
+}
+.content-2a4AW9 .containerDefault-YUSmu3:hover svg{
+  color: rgb(134, 91, 134);
+  transition:0.1s ease-out;
+}
+.message-2CShn3 .mention {
+  /* text color */
+  color: rgb(241, 210, 255) !important;
+  /* background color */
+  background-color: rgba(184, 134, 218, 0.158) !important;
+}
+.mentioned-Tre-dv:before{
+  background: rgb(179, 146, 206);
+}
+#channel-attach-upload-file.focused-3qFvc8 {
+  color: rgb(224, 196, 244);
+  transition: 0.1s;
+}
+.colorDefault-CDqZdO.focused-3qFvc8 {
+  color: rgb(224, 196, 244);
+  transition: 0.1s;
+}
+.icon-2W8DHg {
+  color: rgb(224, 196, 244);
+}
+
+::selection {
+  background: rgb(224, 196, 244);
+  text-color: black;
+}
