@@ -1946,4 +1946,5 @@ body:not(.powercord) .panels-3wFtMD::after {
 ::selection {
   background: rgb(224, 196, 244);
   color: black;
+  transition: 0.15s;
 }
