@@ -1932,11 +1932,11 @@ body:not(.powercord) .panels-3wFtMD::after {
   background: rgb(179, 146, 206);
 }
 #channel-attach-upload-file.focused-3qFvc8 {
-  color: rgb(224, 196, 244);
+  color: rgb(134, 91, 134);
   transition: 0.1s;
 }
 .colorDefault-CDqZdO.focused-3qFvc8 {
-  color: rgb(224, 196, 244);
+  color: rgb(134, 91, 134);
   transition: 0.1s;
 }
 .icon-2W8DHg {
@@ -1945,5 +1945,5 @@ body:not(.powercord) .panels-3wFtMD::after {
 
 ::selection {
   background: rgb(224, 196, 244);
-  text-color: black;
+  color: black;
 }
